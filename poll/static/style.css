@@ -1,0 +1,31 @@
+.navbar-default, .btn, .form-control, .panel {
+	border-radius: 0;
+}
+.navbar-default {
+    background-color: blue;
+    border-color:blue;
+    box-shadow: blue;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: blue;
+    border-bottom: blue;
+}
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: blue;
+    border-color: black;
+    border-top-left-radius: 0;
+	border-top-right-radius: 0; 
+}
+.panel-footer {
+	background-color: blue;
+    border-color: blue;
+}
+.panel {
+	box-shadow: blue;
+}
+a.navbar-brand, .panel-title {
+	font-weight: bolder;
+}
